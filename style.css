@@ -529,7 +529,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 8rem;
-    width: 100%;
+    width: 100%;/*to keep spaces between cards*/
   }
   
   .card {
@@ -611,6 +611,7 @@
     font-size: 1.4rem;
     line-height: 1.5rem;
     color: #eee;
+    cursor: pointer;
     border-radius: 0.3rem;
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
   }
@@ -774,7 +775,7 @@
     color: #fff;
     box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
     border-radius: 0.3rem;
-  }  */
+  }  
   
   /* @media (max-width: 1500px) {
     .about-us-img-wrapper {
