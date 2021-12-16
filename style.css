@@ -700,7 +700,7 @@
     font-size: 1.8rem;
     color: #4b4b4b;
     text-transform: uppercase;
-    pointer-events: none;
+    pointer-events: none;/* no labels should be there in input elements*/
     transition: all 0.3s;
   }
   
